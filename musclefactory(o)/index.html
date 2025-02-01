@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/f9db3eac61.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin=""> <!--Remixicon-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Vina+Sans&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Muscle Factory</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="loggedin.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="content flex_space">
+            <div class="logo">
+                <img src="images/logo.png" alt="">
+            </div>
+            <nav class="navlinks">
+                <a  href="index.html">Home</a>
+                <a  href="courses.html">Courses</a>
+                <a  href="clients.html">Clients</a>
+                <a  href="casestudies.html" id="casestudies">Case Studies</a>
+                <a  href="#contact us">Contact</a>
+                <button id="loginBtn1">LOG IN</button>
+               
+            </nav>
+    
+        </div>
+    </header>
+    <section class="about top">
+        <div class="container flex">
+            <div class="left">
+                <div class="heading">
+                    <h1>WELCOME</h1>
+                    <h2>TEAM MUSCLE FACTORY</h2>
+                </div>
+                <p>Welcome to The Muscle Factory, where dedication meets expertise! I’m Varun Dhir, a renowned national
+                    bodybuilding judge, and fitness enthusiast with over 5 years of experience in sculpting bodies and
+                    transforming lives.My journey in the fitness industry has been nothing short of exhilarating. From
+                    the thrill of competition arenas to the gratification of helping individuals achieve their fitness
+                    goals, every moment has been a testament to my passion for health and wellness.
+                    As a national bodybuilding judge, I’ve honed my craft in evaluating physique, technique, and
+                    dedication, ensuring the highest standards in the sport. This expertise translates seamlessly into
+                    my role as a mentor and coach at The Muscle Factory.
+                    At Muscle Factory, we believe in fostering a community where every member is empowered to exceed
+                    their limits, both physically and mentally. Our state-of-the-art facilities, personalized training
+                    programs, and unwavering support system are designed to accompany you on your fitness journey,
+                    whatever your goals may be.</p>
+                Join us at Muscle Factory, and let’s sculpt the best version of yourself, together!</p>
+                <a href="about.html" class="primary-btn">Read More</a>
+            </div>
+            <div class="right">
+                <div class="photo">
+                    <img src="images/gym2.jpg" alt="">
+                    <div class="name">VARUN DHIR</div>
+                    <div class="desig">NATIONAL BODYBUILDING JUDGE</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-----------------Container---------------->
+    <section class="row">
+        <div class="column1">
+            <img src="images/gym5.jpg" class="img01" width="600" height="300" style="border: 3px solid black">
+            <img src="images/competition.jpeg"  class="img02"width="200" height="200" style="border: 3px solid black">
+            <div class="register-container" id="div-id" style="font-size: 25px">We are Trusted More Than 500 Customers
+            </div>
+            <script>
+                var d = document.getElementById('div-id');
+                d.style.position = "absolute";
+                d.style.left = 300 + 'px';
+                d.style.top = 990 + 'px';
+            </script>
+        </div>
+        <div class="column1" id="right">
+            <h2 style="color:#FFAB00 ;font-family:'Montserrat';font-size: 22px;">About Muscle Factory</h2><br>
+            <h1><b>A Comfortable Place With High Class Equipment</h1></b><br>
+            <p style="color:grey">At Muscle Factory, our mission is to empower individuals to lead healthier, happier lives. We believe in providing a supportive environment where everyone can pursue their fitness journey, regardless of their starting point.
+            </p><br>
+            <p style="font-family:'Montserrat'; color: black">&#x2713 Ready 24/7 Personal Trainer Service</p><br>
+            <p style="font-family:'Montserrat' ;color: black">&#x2713 Most Complete Gym Equipment & Sport Class</p><br>
+            <p style="font-family:'Montserrat'; color: black">&#x2713 A Hygiene & Comfortable Gym</p><br>
+            <button type="button" id="register-btn" style="background-color:#FFAB00;  color: white;">Register
+                Now</button>
+            
+        </div>
+    </section>
+    <section class="counter top">
+        <div class="container grid">
+            <div class=box>
+                <h1>2500</h1>
+                <hr>
+                <span>Customer</span>
+            </div>
+            <div class=box>
+                <h1>4500</h1>
+                <hr>
+                <span>Happy Customer</span>
+            </div>
+            <div class=box>
+                <h1>3550</h1>
+                <hr>
+                <span>Expert Technicians</span>
+            </div>
+            <div class=box>
+                <h1>5500</h1>
+                <hr>
+                <span>Desktop Repaired</span>
+            </div>
+        </div>
+    </section>
+    <section class="row2">
+        <div class="column1">
+            <h2 style="color:#FFAB00 ;font-family:'Montserrat';font-size: 22px;">Why choose Us</h2><br>
+            <h1><b>A Complete Gym & Easy Access to The Place</h1></b><br>
+            <p style="color:grey">Founded in [Year], Muscle Factory started as a small community gym with a passion for fitness. Over the years, we have expanded our facilities and services, becoming a trusted name in the fitness industry.
+            </p><br>
+            <div class="performance">
+                <div class="column1">
+                    <div class="number-counter" style="font-size: 50px; font-weight:600;  color:#FFAB00;">
+                        <span id="counter1">0</span>
+                        <div class="head" style="font-weight:500; font-size: 15px;">Equipment Quality</div>
+                    </div>
+                    <script>
+                        document.addEventListener('DOMContentLoaded', function () {
+                            var counterElement = document.getElementById('counter1');
+                            var currentCount = 0;
+                            var targetCount = 89;
+                            var increment = 1;
+                            var interval = 10; // milliseconds
+                            var intersectionOptions = {
+                                threshold: 0.5 // Trigger when half of the element is visible
+                            };
+
+                            // Create an IntersectionObserver instance
+                            var observer = new IntersectionObserver(function (entries, observer) {
+                                entries.forEach(function (entry) {
+                                    if (entry.isIntersecting) {
+                                        // Start increasing the counter when it becomes visible
+                                        increaseCounter();
+                                        // Once we start increasing, we no longer need to observe
+                                        observer.unobserve(entry.target);
+                                    }
+                                });
+                            }, intersectionOptions);
+
+                            // Observe the counter element
+                            observer.observe(counterElement);
+
+                            // Function to increase the counter
+                            function increaseCounter() {
+                                if (currentCount < targetCount) {
+                                    currentCount += increment;
+                                    counterElement.textContent = currentCount;
+                                    setTimeout(increaseCounter, interval);
+                                }
+                            }
+                        });
+
+                    </script>
+                </div>
+                <div class="column1">
+                    <div class="number-counter" style="font-size: 50px; font-weight:600 ;  color:#080808;">
+                        <span id="counter2">0</span>
+                        <div class="head" style="font-weight:500; font-size: 15px;">Flexible Time</div>
+                    </div>
+                    <script>
+                        document.addEventListener('DOMContentLoaded', function () {
+                            var counterElement = document.getElementById('counter2');
+                            var currentCount = 0;
+                            var targetCount = 92;
+                            var increment = 1;
+                            var interval = 10; // milliseconds
+                            var intersectionOptions = {
+                                threshold: 0.5 // Trigger when half of the element is visible
+                            };
+
+                            // Create an IntersectionObserver instance
+                            var observer = new IntersectionObserver(function (entries, observer) {
+                                entries.forEach(function (entry) {
+                                    if (entry.isIntersecting) {
+                                        // Start increasing the counter when it becomes visible
+                                        increaseCounter();
+                                        // Once we start increasing, we no longer need to observe
+                                        observer.unobserve(entry.target);
+                                    }
+                                });
+                            }, intersectionOptions);
+
+                            // Observe the counter element
+                            observer.observe(counterElement);
+
+                            // Function to increase the counter
+                            function increaseCounter() {
+                                if (currentCount < targetCount) {
+                                    currentCount += increment;
+                                    counterElement.textContent = currentCount;
+                                    setTimeout(increaseCounter, interval);
+                                }
+                            }
+                        });
+
+                    </script>
+                </div>
+                <div class="column1">
+                    <div class="number-counter" style="font-size: 50px; font-weight: 600 ; color:#FFAB00;">
+                        <span id="counter3">0</span>
+                        <div class="head" style="font-weight:500; font-size: 15px; ">Expert Trainer</div>
+                    </div>
+                </div>
+                <script>
+                    document.addEventListener('DOMContentLoaded', function () {
+                        var counterElement = document.getElementById('counter3');
+                        var currentCount = 0;
+                        var targetCount = 80;
+                        var increment = 1;
+                        var interval = 10; // milliseconds
+                        var intersectionOptions = {
+                            threshold: 0.5 // Trigger when half of the element is visible
+                        };
+                        // Create an IntersectionObserver instance
+                        var observer = new IntersectionObserver(function (entries, observer) {
+                            entries.forEach(function (entry) {
+                                if (entry.isIntersecting) {
+                                    // Start increasing the counter when it becomes visible
+                                    increaseCounter();
+                                    // Once we start increasing, we no longer need to observe
+                                    observer.unobserve(entry.target);
+                                }
+                            });
+                        }, intersectionOptions);
+                        // Observe the counter element
+                        observer.observe(counterElement);
+
+                        // Function to increase the counter
+                        function increaseCounter() {
+                            if (currentCount < targetCount) {
+                                currentCount += increment;
+                                counterElement.textContent = currentCount;
+                                setTimeout(increaseCounter, interval);
+                            }
+                        }
+                    });
+
+                </script>
+            </div>
+        </div>
+        <div class="column1">
+            <img src="images/gym16.avif" class="row2-img" width="600" height="400" style="border: 3px solid black">
+        </div>
+    </section>
+    <!---------------------------videos ------------------>
+    <div class="container1">
+        <div class="heading" style="padding: 5px 0 0 100px;">
+            <h1 style="padding-top:30px;">VIDEOS</h1>
+            <h2>LATEST VIDEOS</h2>
+        </div>
+        <div class="row0">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="cards">
+                        <div class="card-body">
+                            <div class="card-image">
+                                <img src="images/gym1.jpeg" alt="gym" height="300px">
+                            </div>
+                            <div class="card-content">
+                                <h4 id="heading">RAW BODYBUILDING</h4>
+                                <p id="paragraph">This podcast has covered many aspects of bodybuilding and powerlifting, from usage of anabolics to its absuage, diet workout every aspect we have tried to cover in this podcast.</p>
+                                <button id="watch"> <a href="https://youtu.be/5QW76v7Pwro?si=hR8T91ttjTswN92o"
+                                        target="_blank">Watch Now</a> </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="cards">
+                        <div class="card-body">
+                            <div class="card-image">
+                                <img src="images/weight loss.jpg" alt="gym" height="300px">
+                            </div>
+                            <div class="card-content">
+                                <h4 id="heading">FEMALE BODYBUILDING</h4>
+                                <p id="paragraph">This video is about female bodybuilding and how it's different from other categories. It's not about anabolics only, it's about everything that counts.After viewing this podcast you will be able to find what is best for you.</p>
+                                <button id="watch"><a href="https://youtu.be/5QW76v7Pwro?si=hR8T91ttjTswN92o"
+                                        target="_blank">Watch Now</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="cards">
+                        <div class="card-body">
+                            <div class="card-image">
+                                <img src="images/gym4.jpg" alt="gym" height="300px">
+                            </div>
+                            <div class="card-content">
+                                <h4 id="heading">INDEPENDENT IRON SERIES</h4>
+                                <p id="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, amet.
+                                    Temporibus eveniet laborum beatae harum aut dolorem! Voluptas reiciendis velit
+                                    illum, tenetur facere, perspiciatis temporibus cum odit ad blanditiis dolorem?</p>
+                                <button id="watch"><a href="https://youtu.be/5QW76v7Pwro?si=hR8T91ttjTswN92o"
+                                        target="_blank">Watch Now</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="cards">
+                        <div class="card-body">
+                            <div class="card-image">
+                                <img src="images/gym5.jpg" alt="gym" height="300px">
+                            </div>
+                            <div class="card-content">
+                                <h4 id="heading">BLOOD THICKENING ON TESTOSTERONE</h4>
+                                <p id="paragraph">This video covers every aspect of blood thickening due to anabolics and also because of other issues. Video includes symptoms, tests and how to manage the blood viscosity.So watch the full video.</p>
+                                <button id="watch"><a href="https://youtu.be/5QW76v7Pwro?si=hR8T91ttjTswN92o"
+                                        target="_blank">Watch Now</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="cards">
+                        <div class="card-body">
+                            <div class="card-image">
+                                <img src="images/gym6.jpeg" alt="gym" height="300px">
+                            </div>
+                            <div class="card-content">
+                                <h4 id="heading">BACK & BICEPS VLOG</h4>
+                                <p id="paragraph">This vlog is about two workouts <br>
+                                    1. Back <br>2. Biceps<br>
+                                    
+                                    Every exercise performed is selected as per the muscle anatomy and by keeping in mind the muscles involved.
+                                    <br>
+                                   </p>
+                                <button id="watch"><a href="https://youtu.be/5QW76v7Pwro?si=hR8T91ttjTswN92o"
+                                        target="_blank">Watch Now</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="cards">
+                        <div class="card-body">
+                            <div class="card-image">
+                                <img src="images/gym8.jpeg" alt="gym" height="300px">
+                            </div>
+                            <div class="card-content">
+                                <h4 id="heading">LEGS WORKOUT WITH COACH VARUN</h4>
+                                <p id="paragraph">This video is regarding our today's workout of Hams and Glutes.Today the exercises included
+                                     Standing Leg Curl, Rdl, Dumbbell Sumo dead, Conventional Deadlift, Seated Calf raises
+                                    </p>
+                                <button id="watch"><a href="https://youtu.be/5QW76v7Pwro?si=hR8T91ttjTswN92o"
+                                        target="_blank">Watch Now</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+            integrity="sha512-qFOQ9YFAeGj1gDOuUD61g3D+tLDv3u1ECYWqT82WQoaWrOhAY+5mRMTTVsQdWutbA5FORCnkEPEgU0OF8IzGvA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+            integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                autoplay: true,
+                autoplayTimeout: 4000,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            })
+        </script>
+    </div>
+    <div class="container2">
+        <div class="row1">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="card-image">
+                        <div class="timing">
+                            <h1>Opening hours</h1><br>
+                            <p>Mon-Sat:<br>Morning: 6.00 A.M. - 10.00 A.M.<br>Evening: 5.30 P.M. - 8.00 P.M.</p>
+                        </div>
+                        <img src="images/gym12.jpg" alt="gym" height="450px">
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="card-image">
+                        <img src="images/gym11.jpg" alt="gym" height="450px">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+            integrity="sha512-qFOQ9YFAeGj1gDOuUD61g3D+tLDv3u1ECYWqT82WQoaWrOhAY+5mRMTTVsQdWutbA5FORCnkEPEgU0OF8IzGvA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+            integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                autoplay: true,
+                autoplayTimeout: 4000,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 1
+                    }
+                }
+            })
+        </script>
+    </div>
+    <!----------------------------Login3----------------->
+    <div id="popupContainer" class="popup">
+        <div class="container0">
+            <div class="image-section">
+                <img src="images/gym8.jpeg" alt="Gym Image">
+            </div>
+            <div class="form-container">
+                <img src="images/logo.png" alt="Gym Logo">
+                <div class="form-toggle">
+                    <button id="loginToggle" class="active">Login</button>
+                    <button id="registerToggle">Register</button>
+                </div>
+                <div class="form-content">
+                    <form id="loginForm" class="form active">
+                        <div class="input-group">
+                            <input type="text" placeholder="Username" required>
+                        </div>
+                        <div class="input-group">
+                            <input type="password" id="password" placeholder="Password" required>
+                            <span id="togglePassword" class="eye-icon">👁️</span>
+                        </div>
+                        <div class="input-group" id="remember-forget">
+                            <label>
+                                <input type="checkbox" id="rememberMe"> Remember Me
+                            </label>
+                            <a href="#" id="forgotPasswordLink">Forgot Password?</a>
+                        </div>
+                        <div class="input-group">
+                            <button type="submit">Sign In</button>
+                        </div>
+                    </form>
+                    <form id="registerForm" class="form">
+                        <div class="input-group">
+                            <input type="text" placeholder="Username" required>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="input-group">
+                            <input type="password" id="password" placeholder="Password" required>
+                            <span id="togglePassword" class="eye-icon">👁️</span>
+                        </div>
+                        <div class="input-group">
+                            <input type="password" id="password" placeholder="Confirm Password" required>
+                            <span id="togglePassword" class="eye-icon">👁️</span>
+                        </div>
+                        <div class="input-group">
+                            <button type="submit">Sign Up</button>
+                        </div>
+                    </form>
+                    <button class="close" onclick="closePopup()">&times;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+    <script src="script4.js"></script>
+    <section class="services top">
+        <div class="container">
+            <div class="heading">
+                <h1>SERVICES</h1>
+                <h2>Our Services</h2>
+                <p>Explore comfort and convenience with our premier services and amenities. From cozy accommodations
+                    to
+                    personalized assistance, we’re dedicated to enhancing your stay. Enjoy modern comforts and
+                    thoughtful extras, making every moment memorable. The property features an elegant restaurant
+                    that
+                    serves a wide range of lip-smacking cuisines.</p>
+            </div>
+            <div class="content flex_space">
+                <div class="left grid2" style="background-color: white;">
+                    <div class="box">
+                        <div class="text">
+                            <i class="fa-solid fa-chart-line"></i>
+                            <h3>WEIGHT LOSS/GAIN</h3><br>
+                            <p>Elevate your events with our versatile banquet facilities, offering a perfect blend
+                                of
+                                sophistication and functionality for memorable gatherings..</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="text">
+                            <i class="fa-solid fa-running"></i>
+                            <h3>PCOS THYROID PLANS</h3><br>
+                            <p>Host successful meetings and events in our state-of-the-art conference hall, equipped
+                                with modern amenities for seamless business gatherings.</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="text">
+                            <i class="fa-solid fa-spa"></i>
+                            <h3>COMPETITION PREP</h3><br>
+                            <p>Provides you medicure, pedicure ,nail extension, haircut and many other parlour
+                                facilities</p>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="text">
+                            <i class="fa-solid fa-handshake-angle"></i>
+                            <h3>THERAPEUTIC HELP</h3><br>
+                            <p>Enjoy the convenience of secure and ample parking facilities, providing hassle-free
+                                access and peace of mind during your stay.</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="text">
+                            <i class="fa-solid fa-person-pregnant"></i>
+                            <h3>POST PREGNANCY WEIGHT LOSS</h3><br>
+                            <p>Enjoy the convenience of secure and ample parking facilities, providing hassle-free
+                                access and peace of mind during your stay.</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="text">
+                            <i class="fa-solid fa-capsules"></i>
+                            <h3>SUPPLEMENT KNOWLEDGE</h3><br>
+                            <p>Enjoy the convenience of secure and ample parking facilities, providing hassle-free
+                                access and peace of mind during your stay.</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="text">
+                            <i class="fa-solid fa-prescription-bottle-medical"></i>
+                            <h3>ANABOLICS KNOWLEDGE</h3><br>
+                            <p>Enjoy the convenience of secure and ample parking facilities, providing hassle-free
+                                access and peace of mind during your stay.</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="text">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <h3>24/7 WHATSAPP SUPPORT</h3><br>
+                            <p>/Enjoy the convenience of secure and ample parking facilities, providing hassle-free
+                                access and peace of mind during your stay.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter mtop">
+        <div class="container flex_space">
+            <h1>Subscribe to our Channel</h1>
+            <input type="text" placeholder="Your Email">
+            <input type="button" value="Subscribe">
+        </div>
+    </section>
+    <footer>
+        <div class="container grid" id="contact us">
+            <div class="box">
+                <img src="images/logo.png" alt="" id="bottom-img">
+                <p>At Muscle Factory, we make group fun, mental fitness easy with yoga & meditation, Medical &
+                    lifestyle
+                    care hassle-free.#BeBetterEveryDay</p>
+                <div class="icon" id="social-icon">
+                    <a href="https://www.instagram.com/thevarundhir?igsh=MnNlcGxja3Izc3dp" class="icon-link"><i class="fa fa-instagram"></i></a>
+                    <a href="mailto:coachvarun@hotmail.com" class="icon-link"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://youtube.com/@thebbd2018?si=qtv1FU-LtIYaYqpE" class="icon-link"><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box2">
+                    <h2>Contact Us</h2>
+                    <i class="fa fa-location-dot"></i>
+                    <label> Muscle factory, Ravidass Chowk, Jalandhar, Punjab
+                        India</label><br>
+                    <i class="fa fa-phone"></i>
+                    <label>98783-01160</label><br>
+                    <i class="fa fa-whatsapp"></i>
+                    <label>97814-63900</label><br>
+                    <i class="fa fa-envelope"></i>
+                    <label>coachvarun@hotmail.com</label><br>
+                </div>
+            </div>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54542.57866406479!2d75.49230612167972!3d31.306200300000018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a5b768fc75dd1%3A0x4b5c00d98aebd467!2sMuscle%20Factory!5e0!3m2!1sen!2sin!4v1719830647510!5m2!1sen!2sin"
+                    width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </footer>
+    <div class="legal">
+        <p class="container"> &copy 2024 Team Muscle Factory</p>
+    </div>
+</body>
+
+</html>
