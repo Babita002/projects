@@ -1,0 +1,658 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">  
+        <script src="https://kit.fontawesome.com/f9db3eac61.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <meta charset ="utf-8">
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Airdrop Hotel</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <header>
+        <div class="content flex_space">
+            <div class="logo">
+                <img src="image/1.jpeg" alt="">
+            </div>
+            <div class="navlinks">
+                <ul id="menulist">
+                    <li><div class="search"><input type="text" placeholder="search"><i class="fas fa-search"></i></div></li>
+                    <li><a href ="home.html">Home</a></li>
+                    <li><a href ="about.html">About</a></li>
+                    <li><a href ="rooms.html">Rooms</a></li>
+                    <li><a href ="services.html">Services</a></li>
+                    <li><a href ="news.html">News</a></li>
+                    <li><a href ="contact.html">Contact</a></li>
+                    <li><button class="primary-btn"><a href ="book.html">BOOK NOW</a></button></li>
+                </ul>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+<section class ="home">
+    <div class="content">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img src="image/one.jpg" alt="">
+                <div class="text">
+                    <h1>Spend your holiday</h1>
+                    <p>Discover tranquility and sophistication at our boutique hotel, where every stay promises serene escapes, elegant accommodations, and unforgettable moments in a uniquely charming setting.</p>
+                    <div class="flex">
+                    <button class="primary-btn">READ MORE</button>
+                    <button class="secondary-btn">CONTACT US</button>
+                    </div>
+                </div> 
+            </div>
+            <div class="item">
+                <img src="image/two.jpg" alt="">
+                <div class="text">
+                    <h1>Where Luxury Meets Comfort</h1>
+                    <p>Discover tranquility and sophistication at our boutique hotel, where every stay promises serene escapes, elegant accommodations, and unforgettable moments in a uniquely charming setting.</p>
+                    <div class="flex">
+                    <button class="primary-btn">READ MORE</button>
+                    <button class="secondary-btn">CONTACT US</button>
+                    </div>
+                </div>
+            
+            </div>
+            <div class="item">
+                <img src="image/three.jpg" alt="">
+                <div class="text">
+                    <h1>Spend your holiday</h1>
+                    <p>Discover tranquility and sophistication at our boutique hotel, where every stay promises serene escapes, elegant accommodations, and unforgettable moments in a uniquely charming setting.</p>
+                    <div class="flex">
+                    <button class="primary-btn">READ MORE</button>
+                    <button class="secondary-btn">CONTACT US</button>
+                    </div>
+                </div>
+        </div>
+    </div>
+</section>
+<!-- Owl Carousel -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 0,
+        nav: true,
+        dots: false,
+        navText:["<i class = 'fa fa-chevron-left'></i>", "<i class = 'fa fa-chevron-right'></i>"],
+        responsive:{
+            0: {
+                items:1
+            },
+            768: {
+                items:1
+            },
+            1000: {
+                items:1
+            }
+        }
+    })
+</script>    
+
+<section class = "book">
+    <div class="container flex_space">
+        <div class="text">
+            <h1><span>Book</span> Your Rooms </h1>
+        </div>
+        <div class="form">
+            <form class="grid">
+                <input type="date" placeholder="Arrival Date">
+                <input type="date" placeholder="Departure Date">
+                <input type="number" placeholder="Adults">
+                <input type="number" placeholder="Children">
+                <input type="submit" placeholder="CHECK AVAILABILITY">
+            </form>
+        </div>
+    </div>
+</section>
+
+<section class="about top">
+    <div class="container flex">
+        <div class="left">
+            <div class="heading">
+                 <h1>WELCOME</h1>
+                <h2>Airdrop Hotel</h2>
+            </div>
+            <p>Indulge in a world of refined elegance and personalized service at our hotels. From the moment you step through our doors, prepare to be captivated by a seamless fusion of luxurious accommodations, exquisite amenities, and unparalleled attention to detail. Our commitment to creating unforgettable experiences ensures that every stay is not just a visit but a journey filled with cherished moments. Discover the epitome of hospitality, where each encounter leaves a lasting impression, making our hotels the preferred choice for those seeking more than accommodation – a haven for extraordinary memories.</p>
+        <button class="primary-btn">ABOUT US</button>
+        </div>
+        <div class="right">
+            <image src="image/about.jpg" alt=""></image>
+        </div>
+    </div>
+
+</section>
+
+<section class="counter top">
+    <div class="container grid">
+    <div class=box>
+        <h1>2500</h1>   
+        <hr>
+        <span>Customer</span>
+    </div> 
+    <div class=box>
+      <h1>4500</h1>   
+      <hr>
+      <span>Happy Customer</span>
+    </div> 
+    <div class=box>
+        <h1>3550</h1>   
+        <hr>
+        <span>Expert Technicians</span>
+    </div> 
+    <div class=box>
+        <h1>5500</h1>   
+        <hr>
+        <span>Desktop Repaired</span>
+    </div> 
+</div>
+</section>
+
+<section class="rooms">
+    <div class="container top">
+        <div class="heading">
+            <h1>EXPLORE</h1>
+            <h2>Our Rooms</h2>
+            <p>Elegant designed and well-appointed accommodation options categorised as Deluxe Rooms and Premium Rooms.Each accomodation unit is well-equipped with modern amenities such as Wi-Fi, air conditioning, an attached bathroom, a television, room service,sanitizers,laundry service and housekeeping.</p>
+        </div>
+        <div class="content mtop">
+            <div class="owl-carousel owl-carousel1 owl-theme">
+                <div class="items">
+                    <div class="image">
+                        <img src="image/room1.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h2>Deluxe Rooms</h2>
+                        <div class="rate flex">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <p> Deluxe rooms, are modernly decorated, can accommodate up to 2 persons, are totally
+                             soundproofed, and are equipped with high-tech comforts such as high-speed internet.</p>
+                    <div class="button flex">
+                        <button class="primary-btn">BOOK NOW</button>
+                        <h3>$250 <span> <br> Per Night </span></h3>
+                    </div>
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="image">
+                        <img src="image/room2.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h2>Premium Rooms</h2>
+                        <div class="rate flex">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <p>Immerse yourself in refined luxury, where sophisticated design meets modern comfort.
+                             Indulge in spacious accommodations adorned with upscale amenities.</p>
+                    <div class="button flex">
+                        <button class="primary-btn">BOOK NOW</button>
+                        <h3>$250 <span> <br> Per Night </span></h3>
+                    </div>
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="image">
+                        <img src="image/room3.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h2>Superior Rooms</h2>
+                        <div class="rate flex">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <p>Highlighted Amenities:
+                            - Bathroom
+                            - Smoking Rooms
+                            - Wi-Fi
+                            - Laundry Service 
+                            Basic Facilities:
+                            - Bathroom
+                            - Smoking Rooms
+                            - Wi-Fi
+                            - Laundry Service</p>
+                    <div class="button flex">
+                        <button class="primary-btn">BOOK NOW</button>
+                        <h3>$250 <span> <br> Per Night </span></h3>
+                    </div>
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="image">
+                        <img src="image/room4.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h2>Premium Rooms</h2>
+                        <div class="rate flex">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <p>Experience opulence in every detail with our premium rooms. 
+                            Immerse yourself in refined luxury, where sophisticated design meets modern comfort. </p>
+                    <div class="button flex">
+                        <button class="primary-btn">BOOK NOW</button>
+                        <h3>$250 <span> <br> Per Night </span></h3>
+                    </div>
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="image">
+                        <img src="image/room5.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h2>Double premium Rooms</h2>
+                        <div class="rate flex">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <p>Indulge in unparalleled comfort and sophistication with our 
+                            Double Premium Room. Designed for discerning travelers, this 
+                            spacious retreat welcomes you with modern decor and thoughtful touches.
+                             Perfect for accommodating up to two persons, experience a haven of tranquility
+                              and luxury. </p>
+                    <div class="button flex">
+                        <button class="primary-btn">BOOK NOW</button>
+                        <h3>$250 <span> <br> Per Night </span></h3>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    $('.owl-carousel1').owlCarousel({
+        loop:true,
+        margin:40,
+        nav:true,
+        dots: false,
+        navText: ["<i class = 'fa fa-chevron-left'></i>","<i class = 'fa fa-chevron-right'></i>"],
+        responsive: {
+            0: {
+                items:1
+            },
+            768: {
+                items:2,
+                margin:10,
+            },
+            1000: {
+                items:3
+            }
+        }
+    })
+</script> 
+
+<section class="gallery">
+    <div class="container top">
+        <div class="heading">
+            <h1>PHOTOS</h1>
+            <h2>Our Gallery</h2>
+            <p> Spend time at Oxygen park which is 3.5 km away from property and visit famous Heritage park which is 6.3 km away from the property.
+                ***********Explore the famous Ujjayanta Palace which is 8.4 km away from the property.</p>
+        </div>
+    </div>
+    <div class="content mtop">
+        <div class="owl-carousel owl-carousel1 owl-theme">
+            <div class="items">
+                <div class="img">
+                    <img src="image/gallery1.jpg" alt="">
+                </div>
+                <div class="overlay">
+                    <span class="fa fa-plus"> </span>
+                    <h3>Photo Title here</h3>
+                </div>
+            </div>
+            <div class="items">
+                <div class="img">
+                    <img src="image/gallery2.jpg" alt="">
+                </div>
+                <div class="overlay">
+                    <span class="fa fa-plus"> </span>
+                    <h3>Photo Title here</h3>
+                </div>
+            </div>
+            <div class="items">
+                <div class="img">
+                    <img src="image/gallery3.jpg" alt="">
+                </div>
+                <div class="overlay">
+                    <span class="fa fa-plus"> </span>
+                    <h3>Photo Title here</h3>
+                </div>
+            </div>
+            <div class="items">
+                <div class="img">
+                    <img src="image/gallery4.jpg" alt="">
+                </div>
+                <div class="overlay">
+                    <span class="fa fa-plus"> </span>
+                    <h3>Photo Title here</h3>
+                </div>
+            </div>
+            <div class="items">
+                <div class="img">
+                    <img src="image/gallery5.jpg" alt="">
+                </div>
+                <div class="overlay">
+                    <span class="fa fa-plus"> </span>
+                    <h3>Photo Title here</h3>
+                </div>
+            </div>
+            <div class="items">
+                <div class="img">
+                    <img src="image/gallery6.jpg" alt="">
+                </div>
+                <div class="overlay">
+                    <span class="fa fa-plus"> </span>
+                    <h3>Photo Title here</h3>
+                </div>
+            </div>
+            <div class="items">
+                <div class="img">
+                    <img src="image/gallery1.jpg" alt="">
+                </div>
+                <div class="overlay">
+                    <span class="fa fa-plus"> </span>
+                    <h3>Photo Title here</h3>
+                </div>
+            </div>
+            <div class="items">
+                <div class="img">
+                    <img src="image/gallery3.jpg" alt="">
+                </div>
+                <div class="overlay">
+                    <span class="fa fa-plus"> </span>
+                    <h3>Photo Title here</h3>
+                </div>
+            </div>
+            <div class="items">
+                <div class="img">
+                    <img src="image/gallery2.jpg" alt="">
+                </div>
+                <div class="overlay">
+                    <span class="fa fa-plus"> </span>
+                    <h3>Photo Title here</h3>
+                </div>
+            </div>
+            <div class="items">
+                <div class="img">
+                    <img src="image/gallery4.jpg" alt="">
+                </div>
+                <div class="overlay">
+                    <span class="fa fa-plus"> </span>
+                    <h3>Photo Title here</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    $('.owl-carousel1').owlCarousel({
+        loop: true,
+        margin: 0,
+        nav: true,
+        dots: false,
+        autoplay:true,
+        autoplayTimeout:1000,
+        autoplayHoverPause:true,
+        navText:["<i class = 'fa fa-chevron-left'></i>","<i class = 'fa fa-chevron-right'></i>"],
+        responsive:{
+            0: {
+                items:1
+            },
+            768: {
+                items:4
+            },
+            1000: {
+                items:6
+            }
+        }
+    })
+</script> 
+
+<section class="services top">
+    <div class="container">
+        <div class="heading">
+            <h1>SERVICES</h1>
+            <h2>Our Services</h2>
+            <p>Explore comfort and convenience with our premier services and amenities. From cozy accommodations to personalized assistance, we’re dedicated to enhancing your stay. Enjoy modern comforts and thoughtful extras, making every moment memorable. The property features an elegant restaurant that serves a wide range of lip-smacking cuisines.</p>
+        </div>
+        <div class="content flex_space">
+            <div class="left grid2">
+                <div class="box">
+                    <div class="text">
+                        <i class="fa-solid fa-champagne-glasses"></i>
+                        <h3>Banquet</h3><br>
+                        <p>Elevate your events with our versatile banquet facilities, offering a perfect blend of sophistication and functionality for memorable gatherings..</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="text">
+                        <i class="fa-solid fa-running"></i>
+                        <h3>Conference Hall</h3><br>
+                        <p>Host successful meetings and events in our state-of-the-art conference hall, equipped with modern amenities for seamless business gatherings.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="text">
+                        <i class="fa-solid fa-spa"></i>
+                        <h3>Beauty and spa</h3><br>
+                        <p>Provides you medicure, pedicure ,nail extension, haircut and many other parlour facilities</p>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="text">
+                        <i class="fa-solid fa-parking"></i>
+                        <h3>Parking</h3><br>
+                        <p>Enjoy the convenience of secure and ample parking facilities, providing hassle-free access and peace of mind during your stay.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <img src="image/services.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section  class="Customer top">
+    <div class="container">
+        <div class="owl-carousel owl-carousel2 owl-theme">
+            <div class="item">
+                <i class="fa-solid fa-quote-right"></i>
+                <p>The thought pioneers that inspire and shape us. Get to know the members of our leadership team.Their deep insights  and decades of unparalleled market expertise set us apart from the competition and help us in providing our customers with super-smooth travel booking eperiences.</p>
+                <h3>Deep Kalra</h3>
+                <label>Founder and chairman</label>
+            </div>
+            <div class="item">
+                <i class="fa-solid fa-quote-right"></i>
+                <p>The accolades we have received across categories include Great Manager Awards 2022, ET Human capital AwardsMost inclusive companies index(MICI) study</p>
+                <h3>Rajesh Magow</h3>
+                <label>Co-Founder and group CEO</label>
+            </div>
+            <div class="item">
+                <i class="fa-solid fa-quote-right"></i>
+                <p>The six core values that stand by, that make us who we are : Curious, Creative, Caring, Customer Focus, Commitment to Results, Continuous Improvement.</p>
+                <h3>Sanjay Mohan</h3>
+                <label>Group Chief Technology</label>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    $('.owl-carousel2').owlCarousel({
+        loop:true,
+        margin:0,
+        nav:false,
+        dots: true,
+        responsive: {
+            0: {
+                items:1
+            },
+            768: {
+                items:1,
+            },
+            1000: {
+                items:1
+            }
+        }
+    })
+</script>
+
+<section class="news top rooms" >
+    <div class="container">
+        <div class="heading">
+            <h1>NEWS</h1>
+            <h2>Our News</h2>
+            <p>Style accompanied by comfort.  Enjoy a perfect fusion of chic aesthetics and cozy relaxation for an unforgettable stay.</p>
+        </div>
+        <div class="content flex">
+            <div class="left grid2">
+                <div class="items">
+                    <div class="image">
+                        <img src="image/blog-1.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h2>Banquet</h2>
+                        <div class="admin flex">
+                            <i class="fa fa-user"></i>
+                            <label>Admin</label>
+                            <i class="fa fa-heart"></i>
+                            <label>500</label>
+                            <i class="fa fa-comments"></i>
+                        </div>
+                        <p> Elevate your events in our exquisite banquet space. Immerse yourself in an ambiance of sophistication, where impeccable service meets versatile settings. Whether it’s a corporate gathering or a celebration of life’s milestones, our banquet venue sets the stage for memorable moments and seamless experiences.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="image">
+                        <img src="image/blog-2.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h2>Swimming Pool</h2>
+                        <div class="admin flex">
+                            <i class="fa fa-user"></i>
+                            <label>Admin</label>
+                            <i class="fa fa-heart"></i>
+                            <label>500</label>
+                            <i class="fa fa-comments"></i>
+                        </div>
+                        <p>Dive into relaxation at our inviting swimming pool. Surrounded by serenity, our pool offers a refreshing escape where you can unwind, soak up the sun, or enjoy a leisurely swim. Whether for fitness or pure leisure, our pool is a tranquil oasis for guests to bask in moments of bliss and rejuvenation.</p>
+                    </div>
+                </div>
+            </div>    
+            <div class="right">
+                <div class="box flex">
+                    <div class="img">
+                        <img src="image/blog-s1.jpg" alt="">
+                    </div>
+                    <div class="stext">
+                        <h2>Planning a long holiday?</h2>
+                        <p>Many extended stays have reduced monthly rates</p>
+                    </div>
+                </div>
+                <div class="box flex">
+                        <div class="img">
+                            <img src="image/blog-s2.jpg" alt="">
+                        </div>
+                        <div class="stext">
+                            <h2>Save 15% with Late Escape Deals</h2>
+                            <p>Explore thousands of dream destinations worldwide</p>
+                        </div>
+                </div>
+                <div class="box flex">
+                        <div class="img">
+                            <img src="image/blog-s3.jpg" alt="">
+                        </div>
+                        <div class="stext">
+                            <h2>Fly and enjoy a holiday</h2>
+                            <p>Book direct our rooms and get more benefit</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="newsletter mtop">
+    <div class="container flex_space">
+        <h1>Subscribe to our newsletter</h1>
+        <input type="text" placeholder="Your Email">
+        <input type="text" value="Subscribe">
+    </div>
+</section>
+
+<footer>
+    <div class="container grid">
+        <div class="box">
+            <img src="image/1.jpeg" alt="">
+            <p>
+                Style meets comfort in every corner. Enjoy a perfect fusion of chic aesthetics and cozy relaxation for an unforgettable stay</p>
+            <div class="icon">
+                <i class="fa fa-facebook-f"></i> 
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-youtube"></i>
+            </div>
+        </div>
+        <div class="box">
+            <h2>Links</h2>
+            <ul>
+                <li>Company History</li>
+                <li>About Us</li>
+                <li>Contact Us</li>
+                <li>Services</li>
+                <li>Privacy Policy</li>
+                <li>Testimonials</li>
+            </ul>
+        </div>
+        <div class="box">
+            <h2>Contact Us</h2>
+            <i class="fa fa-location-dot"></i>
+            <label> Hotel Airdrop, Tripura Agartala, Usha Bazar, Agartala, Tripura, 
+                India</label><br>
+            <i class="fa fa-phone"></i>
+            <label>[88] 789 245 789</label><br>
+            <i class="fa fa-whatsapp"></i>
+            <label>(0124) 2898000</label><br>
+            <i class="fa fa-envelope"></i>
+            <label>reserv@airdrop.com</label><br>
+        </div>
+    </div>
+</footer>
+
+
+<div class="legal">
+    <p class="container">copyright &copy 2023 Hotel AirDrop, All Rights Reserved.</p>
+</div>
+<!-- Icons -->
+<script src="https://kit.fontawesome.com/f9db3eac61.js" crossorigin="anonymous"></script>   
+</body>
+</html>
